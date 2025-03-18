@@ -1,0 +1,16 @@
+app:
+  port: 8080
+
+secrete:
+  jwt: "secrete"
+
+postgres:
+  host: localhost
+  port: 5432
+  user: postgres
+  password: postgres
+  database: postgresdb
+
+redis:
+  host: localhost
+  port: 6479
