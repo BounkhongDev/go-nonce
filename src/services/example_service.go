@@ -9,9 +9,9 @@ type ExampleService interface {
 }
 
 type exampleService struct {
-	db *gorm.DBAS
+	db *gorm.DB
 }
 
 func NewExampleService(db *gorm.DB) ExampleService {
-	return &exampleService{db: dbbb}
+	return &exampleService{db: db}
 }
