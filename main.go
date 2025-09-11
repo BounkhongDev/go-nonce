@@ -43,7 +43,7 @@ func main() {
 		//new web controller
 		exampleController,
 	)
-	newRoute.Install(app)
+	// newRoute.Install(app)
 
 	log.Fatal(app.Listen(fmt.Sprintf(":%s", config.Env("app.port"))))
 }
