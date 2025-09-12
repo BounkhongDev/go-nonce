@@ -43,7 +43,9 @@ func main() {
 		//new web controller
 		exampleController,
 	)
-	// newRoute.Install(app)
+	newRoute.Install(app)
+
+	var testBool bool = true
 
 	log.Fatal(app.Listen(fmt.Sprintf(":%s", config.Env("app.port"))))
 }
